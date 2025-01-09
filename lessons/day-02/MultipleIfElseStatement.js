@@ -16,11 +16,16 @@ let clientAge = Number(readline.question('Your age: '));
  */
 
 if(clientAge < 18){
-    console.log('Không Bán!');
+    console.log("Không Bán!");
+    // Nested conditional statement
+    if (clientAge < 14) {
+        console.log("Calling 911");
+        
+    }
 }else if(clientAge <= 55){
-    console.log('Unlimited!');
+    console.log("Unlimited!");
 }else{
-    console.log('2 Chai');
+    console.log("2 Chai'");
 }
 
 /**
