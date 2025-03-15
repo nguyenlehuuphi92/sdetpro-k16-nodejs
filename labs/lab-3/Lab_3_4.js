@@ -25,4 +25,4 @@ for (let i = 0; i < mergedArray.length; i++) {
     }
 }
 
-console.log(`Array after sorted: [${mergedArray},]`);
+console.log(`Array after sorted: [${mergedArray}]`);
